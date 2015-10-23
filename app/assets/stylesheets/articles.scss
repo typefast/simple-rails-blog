@@ -5,3 +5,9 @@ form {
     padding: 1em;
     background: #eee;
 }
+
+.field_with_errors input {
+    border: 2px solid red;
+    color: red;
+    display: inline-block;
+}
